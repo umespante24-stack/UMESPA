@@ -1,0 +1,256 @@
+📁 ESTRUTURA DO SITE (crie exatamente assim)
+
+/
+├── index.html
+├── diretoria.html
+├── dne.html
+├── style.css
+└── img/
+    └── logo-umespa.png
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>UMESPA - União Municipal dos e das Estudantes de Paulo Afonso</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="container">
+    <img src="img/logo-umespa.png" alt="UMESPA">
+    <div>
+      <h1>UMESPA</h1>
+      <p>União Municipal dos e das Estudantes de Paulo Afonso</p>
+    </div>
+  </div>
+</header>
+
+<nav class="menu">
+  <a href="index.html">Início</a>
+  <a href="diretoria.html">Diretoria</a>
+  <a href="dne.html">DNE</a>
+</nav>
+
+<section class="banner">
+  <h2>Organizar, representar e lutar pelos estudantes de Paulo Afonso</h2>
+</section>
+
+<section class="section">
+  <h2>Quem Somos</h2>
+  <p>
+    A UMESPA é a entidade representativa dos e das estudantes do município
+    de Paulo Afonso – Bahia, atuando na defesa da educação pública,
+    da participação estudantil e dos direitos da juventude.
+  </p>
+</section>
+
+<section class="section cinza">
+  <h2>Nossa Atuação</h2>
+  <ul>
+    <li>✔ Defesa da educação pública</li>
+    <li>✔ Organização estudantil</li>
+    <li>✔ Cultura, esporte e lazer</li>
+    <li>✔ Articulação com grêmios, DCEs, CAs e movimentos sociais</li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2025 UMESPA • Paulo Afonso – Bahia</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Diretoria - UMESPA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="container">
+    <img src="img/logo-umespa.png" alt="UMESPA">
+    <h1>Diretoria da UMESPA</h1>
+  </div>
+</header>
+
+<nav class="menu">
+  <a href="index.html">Início</a>
+  <a href="diretoria.html">Diretoria</a>
+  <a href="dne.html">DNE</a>
+</nav>
+
+<section class="section">
+  <h2>Diretoria Executiva</h2>
+  <ul>
+    <li>Presidente(a)</li>
+    <li>1º Vice-Presidente(a) (Universitário(a) ou Secundarista)</li>
+    <li>2º Vice-Presidente(a) (Secundarista ou Universitário(a))</li>
+    <li>Tesoureiro(a) Geral</li>
+    <li>1º Tesoureiro(a)</li>
+    <li>Secretário(a) Geral</li>
+    <li>1º Secretário(a)</li>
+  </ul>
+</section>
+
+<section class="section cinza">
+  <h2>Diretorias Setoriais</h2>
+<ul>
+    <li>Diretor(a) de Cultura e Eventos</li>
+    <li>Diretor(a) de Esportes e Lazer</li>
+    <li>Diretor(a) de Movimentos Sociais</li>
+    <li>Diretor(a) de Grêmios Estudantis</li>
+    <li>Diretor(a) de DCEs, CAs e DAs</li>
+    <li>Diretor(a) de Comunicação</li>
+    <li>Diretor(a) de Políticas Educacionais</li>
+    <li>Diretor(a) de Relações Institucionais</li>
+  </ul>
+</section>
+
+<footer>
+  <p>UMESPA • União Municipal dos e das Estudantes de Paulo Afonso</p>
+</footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>DNE - UMESPA</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="container">
+    <img src="img/logo-umespa.png" alt="UMESPA">
+    <h1>DNE • Documento Nacional do Estudante</h1>
+  </div>
+</header>
+
+<nav class="menu">
+  <a href="index.html">Início</a>
+  <a href="diretoria.html">Diretoria</a>
+  <a href="dne.html">DNE</a>
+</nav>
+
+<section class="section">
+  <h2>O que é o DNE?</h2>
+  <p>
+    O Documento Nacional do Estudante (DNE) é a carteira estudantil
+    válida em todo o Brasil, garantindo o direito à meia-entrada
+    conforme a Lei nº 12.933/2013.
+  </p>
+</section>
+
+<section class="section cinza">
+  <h2>Quem pode solicitar?</h2>
+ <ul>
+    <li>✔ Ensino Fundamental</li>
+    <li>✔ Ensino Médio</li>
+    <li>✔ Ensino Técnico</li>
+    <li>✔ Ensino Superior</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>Solicitar DNE</h2>
+  <a class="botao" href="https://www.documentodoestudante.com.br" target="_blank">
+    Solicitar DNE
+  </a>
+
+  <p style="font-size:12px; margin-top:20px;">
+    A UMESPA atua como entidade representativa estudantil
+    no município de Paulo Afonso – Bahia.
+  </p>
+</section>
+
+<footer>
+  <p>UMESPA • Paulo Afonso – Bahia</p>
+</footer>
+
+</body>
+</html>
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #111;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topo {
+  background: #d60000;
+  padding: 15px;
+  color: white;
+}
+
+.topo img {
+  width: 80px;
+}
+
+.menu {
+  background: #111;
+padding: 10px;
+  text-align: center;
+}
+
+.menu a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  background: #d60000;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #d60000;
+}
+
+.cinza {
+  background: #f2f2f2;
+}
+
+.botao {
+  display: inline-block;
+  background: #d60000;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
